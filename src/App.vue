@@ -1,6 +1,6 @@
 <script setup>
 import MeuCarrinho from './components/MeuCarrinho.vue';
-import ListagemLivro from './components/ListagemLivro.vue';
+import ListagemLivros from './components/ListagemLivros.vue';
 
 
 </script>

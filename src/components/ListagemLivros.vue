@@ -1,11 +1,11 @@
-<script>
+<script setup>
 import { livros } from '@/_data/livros.js'
-import CardLivro from './components/CardLivro.vue';
+import CardLivro from '@/components/CardLivro.vue';
 </script>
 
 <template>
  <div class="listagem-livros">
-      <card-livro v-for="livro in livros" :key="livro.id" :livro="livro"/>
+      <card-livro v-for="livro in livros" :key="livro.id" :livro="livro" />
     </div>
 </template>
 
